@@ -1,0 +1,36 @@
+<!-- HTML document -->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- this part is not visible for humans  -->  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping List</title>
+
+        <!-- Link Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <!-- External CSS link-->
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    
+    <body>
+        <!-- this part is visible for humans  -->  
+        <div class="container">
+            <h2>Shopping List</h2>
+
+            <div class="header">
+                <input type="text" id="input" placeholder="Item">
+                <!-- calls function which displays each item in the array as list elements in the<ul>tag. -->
+                <span onclick="updateList()" id="addBtn">Add Item</span> 
+            </div>
+            
+            <!-- The<ul>tag where items of they array are displayed-->
+            <ul id="itemList"> </ul>
+            
+        </div>
+        <!-- Link JavaScript file -->
+        <script src="./js/main.js"></script>
+    </body>
+</html>

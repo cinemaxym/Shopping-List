@@ -1,0 +1,12 @@
+/* CSS file */
+
+/* styles font family for body */
+body {
+    font-family: nunito;
+}
+
+/* a checked class has styling which
+indicates that the item has been checked off the shopping list.*/
+.checked {
+    color: red;
+}
